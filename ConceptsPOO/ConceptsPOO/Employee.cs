@@ -1,7 +1,8 @@
 ﻿namespace ConceptsPOO
 {
     //Clase Abstracta
-    public abstract class Employee
+    //Clase empleado implementa la interfase Ipay
+    public abstract class Employee : Ipay
     {
         // Cedula
         public int Id { get; set; }
